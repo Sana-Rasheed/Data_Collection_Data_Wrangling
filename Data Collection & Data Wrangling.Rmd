@@ -1,0 +1,147 @@
+---
+title: "Data Collection and Data Wrangling"
+author: "Sana Rasheed"
+date: "July 19, 2020"
+output: html_document
+---
+
+##### NOTE: 
+1. Change author name and date to your exercise submission date in above section
+2. Your code MUST execute without errors. 
+3. You can add more lines in your code as required.
+
+## Section 1: Manipulating Data
+
+### Question 1 
+**The dataset is loaded for you. Perform the following tasks:**  
+1. use the USPersonalExpenditure dataset and store in a variable.  
+2. Compute summary statistics: mean, standard deviation (sd) across time for each of the indicators.  
+3. Create a new column that contains average values for each of the indicators.  
+
+
+```{r }
+library(help='datasets')
+```
+
+
+```{r }
+USPersonalExpenditure
+```
+
+```{r }
+### start solution ####
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+### end solution ####
+```
+
+### Question 2 
+**download the data from the available URL:**  
+1. Create a new column containing the average bodywt (body weight) of each genus and of each order.  
+2. Create a dataframe containing the average REM sleep time for each order.  
+3. How many missing values are there (in total) and per column?  
+4. How would you like to impute missing values? Write Justification.  <i> Hint: Overall Mean/media/mode vs. Groupby Mean/media/mode?
+
+
+```{r }
+url <- "https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/msleep_ggplot2.csv"
+filename <- "msleep_ggplot2.csv"
+```
+
+
+```{r }
+### start solution ####
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+### end solution ###
+```
+
+### Good job! You've completed this section!
+
+## Section 2: Tidyverse
+
+### Question 1
+**Use the above dataset and perform the following tasks using any library from tidyverse:**  
+1. Filter results to print average REM sleep and average total sleep  for those animals who are carnivores and then for those who are primates.  
+2. Use the order column and "spread" it across the rest of the observations.  
+
+
+```{r }
+### start solution ####
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+
+```
+
+
+```{r }
+### end solution ####
+```
+
+### Good job! You've completed this entire exercise!
