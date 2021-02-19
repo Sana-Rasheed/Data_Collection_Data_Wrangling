@@ -1,6 +1,6 @@
-# Data_Collection_Data_Wrangling
+# Data Collection and Data Wrangling
 ### Instructor: Sana Rasheed
 
-Data Collection &amp; Data Wrangling course offered by Al-Nafi 
+Data Collection &amp; Data Wrangling course offered by Al-Nafi.
 
-Following Repository contains practise exercises for students in .ipynb and .Rmd formats.
+This repository contains practise exercises for students in .ipynb and .Rmd formats.
